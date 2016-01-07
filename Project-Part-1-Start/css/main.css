@@ -11,6 +11,13 @@ Hint! You'll probably want to start by styling:
 I've left some boilerplate below for you.
 
 */
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+}
 
 body {
 
